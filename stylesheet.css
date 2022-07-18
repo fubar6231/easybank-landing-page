@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pageLayout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    z-index: 2;
+    background-color: white;
+}
+
+.siteMenu_Outer {
+    display: flex;
+    gap: 1rem;
+}
+
+.siteMenu {
+    background-color: white;
+    color: darkgray;
+    border-style: none;
+}
+
+.siteMenu:hover {
+    color: black;
+}
+
+.requestButton_top {
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border-style: none;
+    color: white;
+}
+
+.heading {
+    color: black;
+}
+
+.nextGen {
+    display: flex;
+    height: 41rem;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.nextGen_content {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    width: 50%;
+    align-items: baseline;
+    padding: 10rem;
+    color: darkgray;
+}
+
+.nextGen_img {
+    height: auto;
+    width: 50%;
+    background-image: url("./images/bg-intro-desktop.svg");
+    overflow: visible;
+    position: relative;
+    top: -9rem;
+    z-index: 1;
+}
+
+.requestButton_middle {
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border-radius: 1rem;
+    padding: 0.75rem;
+    border-style: none;
+    color: white;
+}
+
+.whyEB {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(220, 16%, 96%);
+    padding: 6rem 8rem;
+}
+
+.whyEB_reasons {
+    display: flex;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+
+.whyEB_reasons img {
+    padding: 1rem;
+}
+
+.latestArticles {
+    padding: 6rem 8rem;
+}
+
+.articles {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    color: darkgray;
+    padding-top: 2rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(233, 26%, 24%);
+    padding: 4rem;
+}
+
+.footer_middle {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 6rem;
+    width: 12rem;
+}
+
+.bottomMenu {
+    color: white;
+    /*padding: 1rem;*/
+    background-color: hsl(233, 26%, 24%);
+    border-style: none;
+}
+
+.bottomMenu:hover{
+    color:hsl(136, 65%, 51%);
+}
+
+.requestButton_bottom {
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border-radius: 1rem;
+    padding: 0.75rem;
+    border-style: none;
+    color: white;
+}
+
+.footer_right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: darkgray;
+}
+
+
